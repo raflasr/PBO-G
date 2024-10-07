@@ -1,14 +1,15 @@
 import java.util.Scanner;
 
 public class InputReader {
-    private Scanner scanner;
+    private Scanner reader;
 
     public InputReader() {
-        scanner = new Scanner(System.in);
+        reader = new Scanner(System.in);
     }
 
+    // Membaca input dari pengguna
     public String getInput() {
         System.out.print("> ");
-        return scanner.nextLine().toLowerCase();
+        return reader.nextLine().trim().toLowerCase();
     }
 }
