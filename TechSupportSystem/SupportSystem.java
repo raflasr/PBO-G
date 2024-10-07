@@ -8,12 +8,9 @@ public class SupportSystem {
     }
 
     public void start() {
-        System.out.println("Welcome to the Soft Technical Support System.");
-        System.out.println("Please tell us about your problem.");
-        System.out.println("We will assist you with any problem you might have.");
-        System.out.println("Please type 'bye' to exit our system.");
-
         boolean finished = false;
+        printWelcome();
+
         while (!finished) {
             String input = reader.getInput();
             if (input.equals("bye")) {
@@ -24,7 +21,18 @@ public class SupportSystem {
             }
         }
 
-        System.out.println("Thank you for using the Soft Technical Support System. Goodbye!");
+        printGoodbye();
+    }
+
+    private void printWelcome() {
+        System.out.println("Welcome to the SowSoft Technical Support System.");
+        System.out.println("Please tell us about your problem.");
+        System.out.println("We will assist you with any problem you might have.");
+        System.out.println("Please type 'bye' to exit our system.");
+    }
+
+    private void printGoodbye() {
+        System.out.println("Thank you for using the SowSoft Technical Support System. Goodbye!");
     }
 
     public static void main(String[] args) {
