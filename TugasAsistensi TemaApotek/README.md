@@ -1,6 +1,6 @@
 Anggota :
-Rafaela Shyra Ashma' Ramadhani - 5025231217
-Triana Velia Hutabalian - 5025231190
+| Rafaela Shyra Ashma' Ramadhani | 5025231217 |
+| Triana Velia Hutabalian | 5025231190 |
 Tema : Apotek
 
 Penjelasan Kode
