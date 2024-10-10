@@ -1,4 +1,9 @@
-Penejelasan Kode
+Anggota :
+Rafaela Shyra Ashma' Ramadhani - 5025231217
+Triana Velia Hutabalian - 5025231190
+Tema : Apotek
+
+Penjelasan Kode
 1. Interface Storable
    Mendefinisikan tiga metode untuk menambah, menghapus, dan menampilkan item dalam inventaris apotek. Interface ini mengatur kontrak bahwa setiap class yang mengimplementasikannya harus menyediakan implementasi dari ketiga metode tersebut.
 2. Class Inventory
