@@ -1,6 +1,8 @@
 Anggota :
-| Rafaela Shyra Ashma' Ramadhani | 5025231217 |
-| Triana Velia Hutabalian | 5025231190 |
+| Name           | NRP        | Kelas     |
+| ---            | ---        | ----------|
+| Rafaela Shyra Ashma' Ramadhani | 5025231217 | Pemrograman Berorientasi Objek (G) |
+| Triana Velia Hutabalian | 5025231190 | Pemrograman Berorientasi Objek (G) |
 Tema : Apotek
 
 Penjelasan Kode
