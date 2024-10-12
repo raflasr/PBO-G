@@ -1,5 +1,4 @@
-Kelompok 9
-Anggota :
+Kelompok 9 anggota :
 | Name           | NRP        | Kelas     |
 | ---            | ---        | ----------|
 | Rafaela Shyra Ashma' Ramadhani | 5025231217 | Pemrograman Berorientasi Objek (G) |
