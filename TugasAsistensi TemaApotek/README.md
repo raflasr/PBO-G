@@ -19,7 +19,8 @@ Penjelasan Kode
    - Program berulang hingga pengguna memilih opsi untuk keluar.
 
 Diagram Class :
-![Screenshot 2024-10-10 190304](https://github.com/user-attachments/assets/09a9088e-54fc-427d-b6a5-b3ea6fffaea0)
+![WhatsApp Image 2024-10-12 at 4 29 39 PM](https://github.com/user-attachments/assets/5d81035f-cc21-4b0f-b56b-4a4e46e1a508)
+
 
 Output:
 1. Menambahkan item obat
