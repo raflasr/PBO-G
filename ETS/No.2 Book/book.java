@@ -1,41 +1,26 @@
-// Kelas Book
-class Book {
-    // Atribut kelas
-    String judul;
-    String penulis;
-    int tahunTerbit;
-    String penerbit;
-    String kategori;
+public class Book {
+    // Atribut kelas Book
+    private String judul;
+    private String penulis;
+    private int tahunTerbit;
+    private String namaPenerbit;
+    private String kategoriBuku;
 
     // Konstruktor untuk menginisialisasi atribut
-    public Book(String judul, String penulis, int tahunTerbit, String penerbit, String kategori) {
+    public Book(String judul, String penulis, int tahunTerbit, String namaPenerbit, String kategoriBuku) {
         this.judul = judul;
         this.penulis = penulis;
         this.tahunTerbit = tahunTerbit;
-        this.penerbit = penerbit;
-        this.kategori = kategori;
+        this.namaPenerbit = namaPenerbit;
+        this.kategoriBuku = kategoriBuku;
     }
 
     // Metode untuk mencetak detail buku
     public void printDetails() {
-        System.out.println("Judul Buku   : " + judul);
-        System.out.println("Penulis      : " + penulis);
-        System.out.println("Tahun Terbit : " + tahunTerbit);
-        System.out.println("Penerbit     : " + penerbit);
-        System.out.println("Kategori     : " + kategori);
-    }
-}
-
-// Kelas utama untuk menjalankan program
-public class Main {
-    public static void main(String[] args) {
-        // Membuat objek Book menggunakan konstruktor
-        Book buku1 = new Book("Laskar Pelangi", "Andrea Hirata", 2005, "Bentang Pustaka", "Novel");
-        Book buku2 = new Book("Clean Code", "Robert C. Martin", 2008, "Prentice Hall", "Programming");
-
-        // Memanggil metode printDetails untuk mencetak detail buku
-        buku1.printDetails();
-        System.out.println(); // Memisahkan output buku1 dan buku2
-        buku2.printDetails();
+        System.out.println("Judul: " + judul);
+        System.out.println("Penulis: " + penulis);
+        System.out.println("Tahun Terbit: " + tahunTerbit);
+        System.out.println("Nama Penerbit: " + namaPenerbit);
+        System.out.println("Kategori Buku: " + kategoriBuku);
     }
 }
