@@ -52,7 +52,7 @@ public static void main(String[] args) {
   - `buku2` mewakili buku "Clean Code" dengan penulis Robert C. Martin, diterbitkan tahun 2008 oleh Prentice Hall, dan berkategori Programming.
   
 - Setelah membuat objek-objek tersebut, program memanggil metode `printDetails()` untuk mencetak detail buku ke konsol.
-2. **Metode `printDetails()`**: Ini adalah metode untuk menampilkan informasi detail dari setiap objek buku.
-3. **Pembuatan Objek**: Dua objek `Book` dibuat dengan nilai-nilai yang berbeda dan kemudian metode `printDetails()` dipanggil untuk menampilkan informasi dari masing-masing buku.
+1. **Metode `printDetails()`**: Ini adalah metode untuk menampilkan informasi detail dari setiap objek buku.
+2. **Pembuatan Objek**: Dua objek `Book` dibuat dengan nilai-nilai yang berbeda dan kemudian metode `printDetails()` dipanggil untuk menampilkan informasi dari masing-masing buku.
 
 Dengan struktur ini, kita dapat dengan mudah membuat objek-objek baru dari kelas `Book` dengan nilai atribut yang berbeda dan mencetak detailnya dengan memanggil metode `printDetails()`.
